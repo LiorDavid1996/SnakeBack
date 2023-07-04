@@ -5,6 +5,7 @@ exports.validateEmail = (email) => {
   };
 
   exports.validateLength = (text, min, max) => {
+   console.log(text);
     if (text.length > max || text.length < min) {
       return false;
     }

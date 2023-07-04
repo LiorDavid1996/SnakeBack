@@ -7,7 +7,7 @@ const User = new Schema({
     lastName: { type: String, required: true },
     email: { type: String, required: true },
     password: { type: String },
-    bestScore:{type:Number}
+    score:{type:Number}
 
 })
 
