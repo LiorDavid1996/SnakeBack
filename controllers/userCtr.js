@@ -88,7 +88,7 @@ const login = async (req, res) => {
         message: "Invalid credentials.Please try again.",
       });
     }
-    const token = generateToken({ id: user._id.toString() }, "7d");
+    
     console.log(user.score);
     res.send({
       id: user._id,
