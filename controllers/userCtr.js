@@ -88,7 +88,6 @@ const login = async (req, res) => {
         message: "Invalid credentials.Please try again.",
       });
     }
-    console.log(user.score);
     res.send({
       id: user._id,
       firstName: user.firstName,
